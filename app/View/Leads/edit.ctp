@@ -12,7 +12,7 @@
 		echo $this->Form->input('email');
 		echo $this->Form->input('phone_1');
 		echo $this->Form->input('phone_2');
-		//echo $this->Form->input('wedding_date');
+		echo $this->Form->input('wedding_date');
 		echo $this->Form->input('street_1');
 		echo $this->Form->input('street_2');
 		echo $this->Form->input('zip');
