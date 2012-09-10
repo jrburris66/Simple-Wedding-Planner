@@ -1,0 +1,121 @@
+/** Tables **/
+/** Custom **/
+
+table.simple {
+	border-width: 0px;
+	border-spacing: 0px;
+/*	border-style: outset;  */
+	border-color: white;
+/*	border-collapse: separate; */
+	background-color: white;
+}
+table.simple th {
+	border-width: 0px;
+	padding: 0px;
+/*	border-style: inset; */
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.simple tr {
+	border-width: 0px;
+	padding: 0px;
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.simple td {
+	border-width: 0px;
+	padding: 0px;
+/*	border-style: inset;  */
+	border-color: white;
+ 	background-color: white;
+	-moz-border-radius: ;
+}
+
+table.myborder {
+	padding: 2px;
+	/*	border-style: outset;  */
+	/*	border-collapse: separate; */
+	background-color: white;
+	border: 2px silver solid;
+	border-radius: 15px;
+	-moz-border-radius: 15px; 
+	
+}
+table.myborder th {
+	border-width: 0px;
+	padding: 0px;
+/*	border-style: inset; */
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.myborder tr td {
+	border-width: 0px;
+	padding: 0px;
+	border-color: white;
+ 	background-color: white;
+	-moz-border-radius: ;
+}
+
+table.mysmall {
+	padding: 2px;
+	/*	border-style: outset;  */
+	/*	border-collapse: separate; */
+	background-color: white;
+	/* border: 2px silver solid; */
+	width:50%;
+	border-radius: 15px;
+	-moz-border-radius: 15px; 
+	
+}
+table.mysmall tr td {
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid #ddd;
+}
+table.mysmall tr:nth-child(even) {
+	background: #f9f9f9;
+}
+table.mysmall td.actions a {
+	margin: 0px 6px;
+	padding:2px 5px;
+}
+
+
+
+
+
+#jb_indexview_actions {
+	line-height: 190%;
+	margin: .3em 0 4em 9em;
+	clear: right;
+}
+
+#jb_indexview_actions .actions {
+	width: auto;
+	padding: 0 1.5%;
+}
+#jb_indexview_actions .actions ul li {
+	display: inline;
+}
+#jb_indexview_actions .actions ul li a {
+	display: inline;
+}
+
+/* Filter */
+#jb_indexview_filter {
+	display: none;
+	background-color: #eee;
+}
+#jb_filterinfo {
+	margin-top:5px; background-color:#ddd; padding:12px;
+}
+
+/* Auth */
+#jb_header_auth {
+	float: right;
+	padding-right: 10px;
+}
