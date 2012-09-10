@@ -29,7 +29,7 @@ class LeadsController extends AppController {
 		if (!$this->Lead->exists()) {
 			throw new NotFoundException(__('Invalid lead'));
 		}
-		// adding a comment to test git
+		// adding a comment to test git. one more for good measure
 		$this->set('lead', $this->Lead->read(null, $id));
 	}
 
